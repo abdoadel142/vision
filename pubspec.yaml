@@ -1,0 +1,30 @@
+name: vision
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  firebase_ml_vision: ^0.9.4
+  image_picker: ^0.6.7+2
+  flutter_tts: ^1.2.2
+  camera: ^0.5.8+2
+  path_provider: ^1.6.11
+  thumbnails: ^1.0.1
+  esys_flutter_share: ^1.0.2
+  barcode_scan: ^3.0.1
+  animated_splash:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
